@@ -18,11 +18,15 @@ This app is an android application that intends to keep users productive by allo
 - **Category:**
 Productivity
 - **Mobile:**
-Mobile Anroid Devices
+This app would target mobile devices for compatibility, but web versions may be used as well. There will be more features available on the movile version than the web versions however.
+- **Story:**
+Allows users to create todo lists and publish them for other users to view, and makes it possible to remind others of their todo lists through notifications. 
 - **Market:**
 Open to pretty much anyone who likes to plan their days out and follow through.
 - **Habit:**
+This app will be used mostly at the start of the users' days, but also a little throughout the day as they remind each other or get reminded by each other of their todo lists. 
 - **Scope:**
+This app will be used mainly amongst friends, as it would be weird for the users to see the todo lists of random people around the world and remind them. This will mostly be used between friend groups, families, or even coworkers to make sure that the users are held accountale for their daily plans.
 
 ## Product Spec
 
