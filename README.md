@@ -11,14 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+This app is an android application that intends to keep users productive by allowing different users to communicate and remind each other of their daily goals, holding each other accountable and making sure that everyone's days are productive.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:**
+Productivity
 - **Mobile:**
-- **Story:**
+Mobile Anroid Devices
 - **Market:**
+Open to pretty much anyone who likes to plan their days out and follow through.
 - **Habit:**
 - **Scope:**
 
@@ -28,39 +30,59 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can register a new account
+* User can enter in data that will be linked to their account
+* User can login
+* User can publish their own todo list onto a feed
+* User can edit their todo list
+* User can view a feed of others' todo list
+* User can notify others for their todo list
+* User can view their profiles and a log of all of their completed/incompleted tasks from the past
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users who have completed all of their tasks in consecutive days will have streaks marked for their profile
+* User can comment on other's todo lists
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login
+   * User can login
+* Register
+   * User can register a new account
+   * User can enter in data that will be linked to their account
+* Stream
+   * User can edit their todo list
+   * User can view a feed of others' todo list
+   * User can notify others for their todo list
+   * Users who have completed all of their tasks in consecutive days will have streaks marked for their profile
+   * User can comment on other's todo lists
+* Creation
+   * User can publish their own todo list onto a feed
+* Profile
+   * User can view their profiles and a log of all of their completed/incompleted tasks from the past
+   * Users who have completed all of their tasks in consecutive days will have streaks marked for their profile
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Stream
+* Profile
+* Creation
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login
+  * Stream
+* Register
+  * Stream
+* Stream
+  * Detail
+* Creation
+  * Stream
+* Profile
+
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
