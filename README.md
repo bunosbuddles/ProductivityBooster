@@ -97,10 +97,37 @@ This app will be used mainly amongst friends, as it would be weird for the users
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | todoList      | String   | the todo list that the author created |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+   
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user  (default field) |
+   | username      | String   | the username for the account |
+   | password      | String   | the password for the account |
+   | email         | String   | the email for the account |
+   | createdAt     | DateTime | date when user is created (default field) |
+   | updatedAt     | DateTime | date when user is last updated (default field) |
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+- Home Feed Screen
+      - (Read/GET) Query all posts
+      - (Create/POST) Create a new notification on the todo list of one of your friends
+      - (Delete) Delete existing post
+- Create Post Screen
+      - (Create/POST) Create a new post object
+- Profile Screen
+      - (Read/GET) Query logged in user object
