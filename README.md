@@ -124,10 +124,10 @@ This app will be used mainly amongst friends, as it would be weird for the users
 ### Networking
 #### List of network requests by screen
 - Home Feed Screen
-      - (Read/GET) Query all posts
-      - (Create/POST) Create a new notification on the todo list of one of your friends
-      - (Delete) Delete existing post
+  - (Read/GET) Query all posts
+  - (Create/POST) Create a new notification on the todo list of one of your friends
+  - (Delete) Delete existing post
 - Create Post Screen
-      - (Create/POST) Create a new post object
+  - (Create/POST) Create a new post object
 - Profile Screen
-      - (Read/GET) Query logged in user object
+  - (Read/GET) Query logged in user object
