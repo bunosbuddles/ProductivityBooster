@@ -131,3 +131,5 @@ This app will be used mainly amongst friends, as it would be weird for the users
   - (Create/POST) Create a new post object
 - Profile Screen
   - (Read/GET) Query logged in user object
+
+### Networking
